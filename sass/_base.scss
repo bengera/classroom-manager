@@ -1,0 +1,97 @@
+// COLOR VARIABLES
+$color-green: rgb(46, 228, 106);
+
+
+// FONT VARIABLES
+$font-primary: 'Roboto', sans-serif;
+$font-secondary: 'Sans-serif';
+
+
+// RESPONSIVE BREAKPOINTS
+$bp-largest: 75em;   // 1200px
+$bp-large: 62.5em;   // 1000px
+$bp-medium: 50em;    // 800px;
+$bp-small: 37.5em;    // 600px;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  /*font-size: 62.5%; 
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%;
+  }
+
+  @media only screen and (max-width: $bp-medium) {
+    font-size: 40%;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 35%;
+  }
+   */
+}
+
+body {
+  font-family: $font-primary;
+  font-weight: 300;
+  height: 100vh;
+  line-height: 1.6;
+  overflow-x: hidden;
+  
+  
+}
+
+.master-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.scorebox {
+  display: grid;
+  grid-template-columns: 1fr;
+  
+  width: 15rem;
+  justify-items: center;
+  font-size: 2rem;
+
+  &__letter {
+    font-size: 4rem;
+    
+  }
+
+  &__number {
+    font-size: 4rem;
+    border: 1px solid rgb(228, 223, 223);
+    width: 10rem;
+    text-align: center;
+  }
+}
+
+.btn {
+  width: 10rem;
+  height: 4rem;
+  font-size: 1.5rem;
+  border-radius: 0;
+
+  &:active {
+    transform: scale(0.98);
+  }
+
+ 
+
+}
+
+.scorebox {
+
+  &__number{
+    
+  }
+
+}
