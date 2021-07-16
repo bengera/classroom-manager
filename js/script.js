@@ -62,7 +62,7 @@ function reset() {
     init();
 }
 
-console.log("Update of JS file in July");
+console.log("Update of JS file in July everyone");
 
 
 
